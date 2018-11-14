@@ -11,6 +11,7 @@
 <p>Les liste liées sont dans la table Books pour le champre genre</p>
 <p>L'autocomplete est dans le champ ville pour la table adresse</p>
 <p>Il est possible de rentrer avec le préfix admin à partir de la vue des bibliothéques (libraries)</p>
+<p>L'action PDF se trouve dans la pages des livres (books)</p>
 
 <?= $this->Html->image('bd.png') ?>
 <br/>
