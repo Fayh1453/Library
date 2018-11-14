@@ -60,10 +60,10 @@ class AdressesTable extends Table
             ->allowEmpty('id', 'create');
 
         $validator
-            ->scalar('city')
-            ->maxLength('city', 255)
-            ->requirePresence('city', 'create')
-            ->notEmpty('city');
+            ->scalar('ville')
+            ->maxLength('ville', 255)
+            ->requirePresence('ville', 'create')
+            ->notEmpty('ville');
 
         $validator
             ->scalar('street')

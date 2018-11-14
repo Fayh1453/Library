@@ -1,4 +1,5 @@
 <?php
+$this->extend('/Layout/TwitterBootstrap/default');
 /**
  * @var \App\View\AppView $this
  * @var \App\Model\Entity\Library[]|\Cake\Collection\CollectionInterface $libraries
@@ -14,6 +15,7 @@
          <li><?= $this->Html->link(__('List Stocks'), ['controller' => 'Stocks', 'action' => 'index']) ?></li>
           <li><?= $this->Html->link(__('List Members'), ['controller' => 'Members', 'action' => 'index']) ?></li>
            <li><?= $this->Html->link(__('List Files'), ['controller' => 'Files', 'action' => 'index']) ?></li>
+             <li><?= $this->Html->link(__('Admin'), ['controller' => 'admin/Adresses', 'action' => 'index']) ?></li>
             <li><?= $this->Html->link(__('Send Email'), ['controller' => 'Emails', 'action' => 'index']) ?></li>
     </ul>
 </nav>

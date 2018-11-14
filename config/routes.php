@@ -23,6 +23,8 @@ use Cake\Routing\RouteBuilder;
 use Cake\Routing\Router;
 use Cake\Routing\Route\DashedRoute;
 
+Router::extensions(['json', 'xml', 'pdf']);
+
 /**
  * The default class to use for all routes
  *
@@ -45,8 +47,10 @@ use Cake\Routing\Route\DashedRoute;
  *
  */
 Router::defaultRouteClass(DashedRoute::class);
-
+Router::prefix('Admin', function ($routes) { $routes->fallbacks('InflectedRoute'); });
 Router::scope('/', function (RouteBuilder $routes) {
+    
+   $routes->resources('Adresse');
     /**
      * Apply a middleware to the current route scope.
      * Requires middleware to be registered via `Application::routes()` with `registerMiddleware()`

@@ -18,7 +18,7 @@ class AdressesFixture extends TestFixture
     // @codingStandardsIgnoreStart
     public $fields = [
         'id' => ['type' => 'integer', 'length' => 11, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'autoIncrement' => true, 'precision' => null],
-        'city' => ['type' => 'string', 'length' => 255, 'null' => false, 'default' => null, 'collate' => 'utf8_unicode_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
+        'ville' => ['type' => 'string', 'length' => 255, 'null' => false, 'default' => null, 'collate' => 'utf8_unicode_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
         'street' => ['type' => 'string', 'length' => 255, 'null' => false, 'default' => null, 'collate' => 'utf8_unicode_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
         'number' => ['type' => 'integer', 'length' => 5, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
         'zip' => ['type' => 'string', 'length' => 6, 'null' => false, 'default' => null, 'collate' => 'utf8_unicode_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
@@ -48,12 +48,12 @@ class AdressesFixture extends TestFixture
         $this->records = [
             [
                 'id' => 1,
-                'city' => 'Lorem ipsum dolor sit amet',
+                'ville' => 'Lorem ipsum dolor sit amet',
                 'street' => 'Lorem ipsum dolor sit amet',
                 'number' => 1,
                 'zip' => 'Lore',
-                'created' => '2018-10-11 19:57:35',
-                'modified' => '2018-10-11 19:57:35',
+                'created' => '2018-11-12 19:14:55',
+                'modified' => '2018-11-12 19:14:55',
                 'user_id' => 1
             ],
         ];

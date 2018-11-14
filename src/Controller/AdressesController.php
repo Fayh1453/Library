@@ -20,9 +20,9 @@ class AdressesController extends AppController
      */
     public function index()
     {
-        /*$this->paginate = [
+        $this->paginate = [
             'contain' => ['Users']
-        ];*/
+        ];
         $adresses = $this->paginate($this->Adresses);
 
         $this->set(compact('adresses'));
@@ -38,7 +38,7 @@ class AdressesController extends AppController
     public function view($id = null)
     {
         $adress = $this->Adresses->get($id, [
-            //'contain' => ['Users']
+            'contain' => ['Users']
         ]);
 
         $this->set('adress', $adress);
@@ -108,29 +108,5 @@ class AdressesController extends AppController
         }
 
         return $this->redirect(['action' => 'index']);
-    }
-    
-    
-       public function isAuthorized($user)
-    {
-        
-
-            $action = $this->request->getParam('action');
-            if (in_array($action, ['add'])) {
-                return true;
-            }
-            // All other actions require a slug
-            $id = $this->request->getParam('pass.0');
-            if (!$id) {
-                return false;
-            }
-            // Check that the article belongs to the current user.
-            $adresse = $this->Adresses->findById($id)->first();
-            if ($user['type'] === 'manager') {
-                return true;
-            } else {
-                return $adresse->user_id === $user['id'];
-            
-        }
     }
 }

@@ -1,4 +1,5 @@
 <?php
+$this->extend('/Layout/TwitterBootstrap/default');
 /**
  * @var \App\View\AppView $this
  * @var \App\Model\Entity\Book $book
@@ -7,9 +8,16 @@
 <nav class="large-3 medium-4 columns" id="actions-sidebar">
     <ul class="side-nav">
         <li class="heading"><?= __('Actions') ?></li>
-    
+        <li><?= $this->Html->link(__('Edit Book'), ['action' => 'edit', $book->id]) ?> </li>
+        <li><?= $this->Form->postLink(__('Delete Book'), ['action' => 'delete', $book->id], ['confirm' => __('Are you sure you want to delete # {0}?', $book->id)]) ?> </li>
         <li><?= $this->Html->link(__('List Books'), ['action' => 'index']) ?> </li>
-
+        <li><?= $this->Html->link(__('New Book'), ['action' => 'add']) ?> </li>
+        <li><?= $this->Html->link(__('List Genres'), ['controller' => 'Genres', 'action' => 'index']) ?> </li>
+        <li><?= $this->Html->link(__('New Genre'), ['controller' => 'Genres', 'action' => 'add']) ?> </li>
+        <li><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index']) ?> </li>
+        <li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?> </li>
+        <li><?= $this->Html->link(__('List Stocks'), ['controller' => 'Stocks', 'action' => 'index']) ?> </li>
+        <li><?= $this->Html->link(__('New Stock'), ['controller' => 'Stocks', 'action' => 'add']) ?> </li>
     </ul>
 </nav>
 <div class="books view large-9 medium-8 columns content">
@@ -18,6 +26,10 @@
         <tr>
             <th scope="row"><?= __('Title') ?></th>
             <td><?= h($book->title) ?></td>
+        </tr>
+        <tr>
+            <th scope="row"><?= __('Genre') ?></th>
+            <td><?= $book->has('genre') ? $this->Html->link($book->genre->name, ['controller' => 'Genres', 'action' => 'view', $book->genre->id]) : '' ?></td>
         </tr>
         <tr>
             <th scope="row"><?= __('User') ?></th>
@@ -40,31 +52,6 @@
             <td><?= h($book->modified) ?></td>
         </tr>
     </table>
-    <div class="related">
-        <h4><?= __('Related Files Book') ?></h4>
-        <?php if (!empty($book->files_book)): ?>
-        <table cellpadding="0" cellspacing="0">
-            <tr>
-                <th scope="col"><?= __('Id') ?></th>
-                <th scope="col"><?= __('Book Id') ?></th>
-                <th scope="col"><?= __('File Id') ?></th>
-                <th scope="col" class="actions"><?= __('Actions') ?></th>
-            </tr>
-            <?php foreach ($book->files_book as $filesBook): ?>
-            <tr>
-                <td><?= h($filesBook->id) ?></td>
-                <td><?= h($filesBook->book_id) ?></td>
-                <td><?= h($filesBook->file_id) ?></td>
-                <td class="actions">
-                    <?= $this->Html->link(__('View'), ['controller' => 'FilesBook', 'action' => 'view', $filesBook->id]) ?>
-                    <?= $this->Html->link(__('Edit'), ['controller' => 'FilesBook', 'action' => 'edit', $filesBook->id]) ?>
-                    <?= $this->Form->postLink(__('Delete'), ['controller' => 'FilesBook', 'action' => 'delete', $filesBook->id], ['confirm' => __('Are you sure you want to delete # {0}?', $filesBook->id)]) ?>
-                </td>
-            </tr>
-            <?php endforeach; ?>
-        </table>
-        <?php endif; ?>
-    </div>
     <div class="related">
         <h4><?= __('Related Stocks') ?></h4>
         <?php if (!empty($book->stocks)): ?>

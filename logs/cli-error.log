@@ -168,3 +168,351 @@ Stack Trace:
 #16 {main}
 
 
+2018-11-12 15:28:22 Error: [Cake\Core\Exception\MissingPluginException] Plugin Crud could not be found. in C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\PluginCollection.php on line 127
+Exception Attributes: array (
+  'plugin' => 'Crud',
+)
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\Plugin.php(134): Cake\Core\PluginCollection->findPath('Crud')
+#1 C:\Program Files (x86)\Ampps\www\Library\config\bootstrap.php(207): Cake\Core\Plugin::load('Crud')
+#2 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Http\BaseApplication.php(152): require_once('C:\\Program File...')
+#3 C:\Program Files (x86)\Ampps\www\Library\src\Application.php(41): Cake\Http\BaseApplication->bootstrap()
+#4 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(191): App\Application->bootstrap()
+#5 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(136): Cake\Console\CommandRunner->bootstrap()
+#6 C:\Program Files (x86)\Ampps\www\Library\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#7 {main}
+
+
+2018-11-12 15:29:51 Error: [Cake\Core\Exception\MissingPluginException] Plugin Crud could not be found. in C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\PluginCollection.php on line 127
+Exception Attributes: array (
+  'plugin' => 'Crud',
+)
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\Plugin.php(134): Cake\Core\PluginCollection->findPath('Crud')
+#1 C:\Program Files (x86)\Ampps\www\Library\config\bootstrap.php(207): Cake\Core\Plugin::load('Crud')
+#2 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Http\BaseApplication.php(152): require_once('C:\\Program File...')
+#3 C:\Program Files (x86)\Ampps\www\Library\src\Application.php(41): Cake\Http\BaseApplication->bootstrap()
+#4 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(191): App\Application->bootstrap()
+#5 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(136): Cake\Console\CommandRunner->bootstrap()
+#6 C:\Program Files (x86)\Ampps\www\Library\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#7 {main}
+
+
+2018-11-12 15:32:39 Error: [Cake\Core\Exception\MissingPluginException] Plugin Crud could not be found. in C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\PluginCollection.php on line 127
+Exception Attributes: array (
+  'plugin' => 'Crud',
+)
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\Plugin.php(134): Cake\Core\PluginCollection->findPath('Crud')
+#1 C:\Program Files (x86)\Ampps\www\Library\config\bootstrap.php(208): Cake\Core\Plugin::load('Crud')
+#2 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Http\BaseApplication.php(152): require_once('C:\\Program File...')
+#3 C:\Program Files (x86)\Ampps\www\Library\src\Application.php(41): Cake\Http\BaseApplication->bootstrap()
+#4 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(191): App\Application->bootstrap()
+#5 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(136): Cake\Console\CommandRunner->bootstrap()
+#6 C:\Program Files (x86)\Ampps\www\Library\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#7 {main}
+
+
+2018-11-12 15:34:53 Error: [Cake\Core\Exception\MissingPluginException] Plugin Crud could not be found. in C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\PluginCollection.php on line 127
+Exception Attributes: array (
+  'plugin' => 'Crud',
+)
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\Plugin.php(134): Cake\Core\PluginCollection->findPath('Crud')
+#1 C:\Program Files (x86)\Ampps\www\Library\config\bootstrap.php(208): Cake\Core\Plugin::load('Crud')
+#2 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Http\BaseApplication.php(152): require_once('C:\\Program File...')
+#3 C:\Program Files (x86)\Ampps\www\Library\src\Application.php(41): Cake\Http\BaseApplication->bootstrap()
+#4 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(191): App\Application->bootstrap()
+#5 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(136): Cake\Console\CommandRunner->bootstrap()
+#6 C:\Program Files (x86)\Ampps\www\Library\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#7 {main}
+
+
+2018-11-12 15:37:33 Error: [Cake\Core\Exception\MissingPluginException] Plugin Crud could not be found. in C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\PluginCollection.php on line 127
+Exception Attributes: array (
+  'plugin' => 'Crud',
+)
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\Plugin.php(134): Cake\Core\PluginCollection->findPath('Crud')
+#1 C:\Program Files (x86)\Ampps\www\Library\config\bootstrap.php(208): Cake\Core\Plugin::load('Crud')
+#2 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Http\BaseApplication.php(152): require_once('C:\\Program File...')
+#3 C:\Program Files (x86)\Ampps\www\Library\src\Application.php(41): Cake\Http\BaseApplication->bootstrap()
+#4 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(191): App\Application->bootstrap()
+#5 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(136): Cake\Console\CommandRunner->bootstrap()
+#6 C:\Program Files (x86)\Ampps\www\Library\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#7 {main}
+
+
+2018-11-12 15:40:35 Error: [Cake\Core\Exception\MissingPluginException] Plugin Crud could not be found. in C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\PluginCollection.php on line 127
+Exception Attributes: array (
+  'plugin' => 'Crud',
+)
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\Plugin.php(134): Cake\Core\PluginCollection->findPath('Crud')
+#1 C:\Program Files (x86)\Ampps\www\Library\config\bootstrap.php(208): Cake\Core\Plugin::load('Crud')
+#2 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Http\BaseApplication.php(152): require_once('C:\\Program File...')
+#3 C:\Program Files (x86)\Ampps\www\Library\src\Application.php(41): Cake\Http\BaseApplication->bootstrap()
+#4 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(191): App\Application->bootstrap()
+#5 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(136): Cake\Console\CommandRunner->bootstrap()
+#6 C:\Program Files (x86)\Ampps\www\Library\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#7 {main}
+
+
+2018-11-12 19:14:54 Warning: Warning (512): Association property name "ville" clashes with field of same name of table "adresses". You should explicitly specify the "propertyName" option. in [C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\ORM\Association.php, line 761]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\ORM\Association::getProperty() - CORE\src\ORM\Association.php, line 761
+Bake\Shell\Task\ModelTask::getEntityPropertySchema() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 581
+Bake\Shell\Task\ModelTask::getTableContext() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 137
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 101
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 532
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 525
+Cake\Console\CommandRunner::runShell() - CORE\src\Console\CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 164
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2018-11-13 21:03:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'city' in 'field list' in C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 306
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php(306): PDOStatement->execute(Array)
+#1 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php(193): Phinx\Db\Adapter\PdoAdapter->bulkinsert(Object(Phinx\Db\Table\Table), Array)
+#2 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\TimedOutputAdapter.php(127): Phinx\Db\Adapter\AdapterWrapper->bulkinsert(Object(Phinx\Db\Table\Table), Array)
+#3 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php(193): Phinx\Db\Adapter\TimedOutputAdapter->bulkinsert(Object(Phinx\Db\Table\Table), Array)
+#4 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(653): Phinx\Db\Adapter\AdapterWrapper->bulkinsert(Object(Phinx\Db\Table\Table), Array)
+#5 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(625): Phinx\Db\Table->saveData()
+#6 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(683): Phinx\Db\Table->update()
+#7 C:\Program Files (x86)\Ampps\www\Library\config\Seeds\AdressesSeed.php(75): Phinx\Db\Table->save()
+#8 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(158): AdressesSeed->run()
+#9 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(417): Phinx\Migration\Manager\Environment->executeSeed(Object(AdressesSeed))
+#10 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(554): Phinx\Migration\Manager->executeSeed('default', Object(AdressesSeed))
+#11 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Console\Command\SeedRun.php(111): Phinx\Migration\Manager->seed('default')
+#12 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Command\CommandTrait.php(35): Phinx\Console\Command\SeedRun->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Command\Seed.php(72): Migrations\Command\Seed->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 C:\Program Files (x86)\Ampps\www\Library\vendor\symfony\console\Command\Command.php(255): Migrations\Command\Seed->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 C:\Program Files (x86)\Ampps\www\Library\vendor\symfony\console\Application.php(888): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 C:\Program Files (x86)\Ampps\www\Library\vendor\symfony\console\Application.php(264): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Seed), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 C:\Program Files (x86)\Ampps\www\Library\vendor\symfony\console\Application.php(145): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(108): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\Shell.php(532): Migrations\Shell\MigrationsShell->main('migrations', 'seed')
+#20 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(164): Cake\Console\Shell->runCommand(Array, true, Array)
+#21 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Migrations\Shell\MigrationsShell->runCommand(Array, true)
+#22 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Migrations\Shell\MigrationsShell), Array)
+#23 C:\Program Files (x86)\Ampps\www\Library\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#24 {main}
+
+
+2018-11-13 21:22:32 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'library.i18ns' doesn't exist in C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(350): Cake\Database\Statement\MysqlStatement->execute()
+#2 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#3 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(353): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#4 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(302): Cake\Database\Connection->query(Object(Cake\Database\Query))
+#5 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#6 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(306): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#7 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Shell\Task\SeedTask.php(111): Cake\Database\Connection->execute(Object(Cake\Database\Query))
+#8 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\bake\src\Shell\Task\SimpleBakeTask.php(104): Migrations\Shell\Task\SeedTask->templateData()
+#9 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Shell\Task\SeedTask.php(130): Bake\Shell\Task\SimpleBakeTask->bake('I18n')
+#10 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\bake\src\Shell\Task\SimpleBakeTask.php(91): Migrations\Shell\Task\SeedTask->bake('I18n')
+#11 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\Shell.php(532): Bake\Shell\Task\SimpleBakeTask->main('I18n')
+#12 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#13 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#14 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#15 C:\Program Files (x86)\Ampps\www\Library\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#16 {main}
+
+
+2018-11-13 21:22:39 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'library.i18ns' doesn't exist in C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(350): Cake\Database\Statement\MysqlStatement->execute()
+#2 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#3 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(353): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#4 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(302): Cake\Database\Connection->query(Object(Cake\Database\Query))
+#5 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#6 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(306): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#7 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Shell\Task\SeedTask.php(111): Cake\Database\Connection->execute(Object(Cake\Database\Query))
+#8 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\bake\src\Shell\Task\SimpleBakeTask.php(104): Migrations\Shell\Task\SeedTask->templateData()
+#9 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Shell\Task\SeedTask.php(130): Bake\Shell\Task\SimpleBakeTask->bake('I18n')
+#10 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\bake\src\Shell\Task\SimpleBakeTask.php(91): Migrations\Shell\Task\SeedTask->bake('I18n')
+#11 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\Shell.php(532): Bake\Shell\Task\SimpleBakeTask->main('I18n')
+#12 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#13 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#14 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#15 C:\Program Files (x86)\Ampps\www\Library\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#16 {main}
+
+
+2018-11-13 21:22:45 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'library.i18ns' doesn't exist in C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(350): Cake\Database\Statement\MysqlStatement->execute()
+#2 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#3 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(353): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#4 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(302): Cake\Database\Connection->query(Object(Cake\Database\Query))
+#5 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#6 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(306): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#7 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Shell\Task\SeedTask.php(111): Cake\Database\Connection->execute(Object(Cake\Database\Query))
+#8 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\bake\src\Shell\Task\SimpleBakeTask.php(104): Migrations\Shell\Task\SeedTask->templateData()
+#9 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Shell\Task\SeedTask.php(130): Bake\Shell\Task\SimpleBakeTask->bake('I18n')
+#10 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\bake\src\Shell\Task\SimpleBakeTask.php(91): Migrations\Shell\Task\SeedTask->bake('I18n')
+#11 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\Shell.php(532): Bake\Shell\Task\SimpleBakeTask->main('I18n')
+#12 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#13 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#14 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#15 C:\Program Files (x86)\Ampps\www\Library\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#16 {main}
+
+
+2018-11-13 21:23:42 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'library.i18ns' doesn't exist in C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(350): Cake\Database\Statement\MysqlStatement->execute()
+#2 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#3 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(353): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#4 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(302): Cake\Database\Connection->query(Object(Cake\Database\Query))
+#5 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#6 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(306): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#7 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Shell\Task\SeedTask.php(111): Cake\Database\Connection->execute(Object(Cake\Database\Query))
+#8 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\bake\src\Shell\Task\SimpleBakeTask.php(104): Migrations\Shell\Task\SeedTask->templateData()
+#9 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Shell\Task\SeedTask.php(130): Bake\Shell\Task\SimpleBakeTask->bake('I18n')
+#10 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\bake\src\Shell\Task\SimpleBakeTask.php(91): Migrations\Shell\Task\SeedTask->bake('I18n')
+#11 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\Shell.php(532): Bake\Shell\Task\SimpleBakeTask->main('I18n')
+#12 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#13 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#14 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#15 C:\Program Files (x86)\Ampps\www\Library\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#16 {main}
+
+
+2018-11-13 21:25:37 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'library.i18ns' doesn't exist in C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(350): Cake\Database\Statement\MysqlStatement->execute()
+#2 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#3 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(353): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#4 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(302): Cake\Database\Connection->query(Object(Cake\Database\Query))
+#5 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#6 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(306): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#7 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Shell\Task\SeedTask.php(111): Cake\Database\Connection->execute(Object(Cake\Database\Query))
+#8 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\bake\src\Shell\Task\SimpleBakeTask.php(104): Migrations\Shell\Task\SeedTask->templateData()
+#9 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Shell\Task\SeedTask.php(130): Bake\Shell\Task\SimpleBakeTask->bake('I18n')
+#10 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\bake\src\Shell\Task\SimpleBakeTask.php(91): Migrations\Shell\Task\SeedTask->bake('I18n')
+#11 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\Shell.php(532): Bake\Shell\Task\SimpleBakeTask->main('I18n')
+#12 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#13 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#14 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#15 C:\Program Files (x86)\Ampps\www\Library\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#16 {main}
+
+
+2018-11-13 21:25:50 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'library.i18ns' doesn't exist in C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(350): Cake\Database\Statement\MysqlStatement->execute()
+#2 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#3 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(353): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#4 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(302): Cake\Database\Connection->query(Object(Cake\Database\Query))
+#5 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#6 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Database\Connection.php(306): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#7 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Shell\Task\SeedTask.php(111): Cake\Database\Connection->execute(Object(Cake\Database\Query))
+#8 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\bake\src\Shell\Task\SimpleBakeTask.php(104): Migrations\Shell\Task\SeedTask->templateData()
+#9 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Shell\Task\SeedTask.php(130): Bake\Shell\Task\SimpleBakeTask->bake('I18ns')
+#10 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\bake\src\Shell\Task\SimpleBakeTask.php(91): Migrations\Shell\Task\SeedTask->bake('I18ns')
+#11 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\Shell.php(532): Bake\Shell\Task\SimpleBakeTask->main('I18ns')
+#12 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#13 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#14 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#15 C:\Program Files (x86)\Ampps\www\Library\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#16 {main}
+
+
+2018-11-13 21:32:23 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY' in C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 306
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php(306): PDOStatement->execute(Array)
+#1 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php(193): Phinx\Db\Adapter\PdoAdapter->bulkinsert(Object(Phinx\Db\Table\Table), Array)
+#2 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\TimedOutputAdapter.php(127): Phinx\Db\Adapter\AdapterWrapper->bulkinsert(Object(Phinx\Db\Table\Table), Array)
+#3 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php(193): Phinx\Db\Adapter\TimedOutputAdapter->bulkinsert(Object(Phinx\Db\Table\Table), Array)
+#4 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(653): Phinx\Db\Adapter\AdapterWrapper->bulkinsert(Object(Phinx\Db\Table\Table), Array)
+#5 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(625): Phinx\Db\Table->saveData()
+#6 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(683): Phinx\Db\Table->update()
+#7 C:\Program Files (x86)\Ampps\www\Library\config\Seeds\AdresseSeed.php(95): Phinx\Db\Table->save()
+#8 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(158): AdresseSeed->run()
+#9 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(417): Phinx\Migration\Manager\Environment->executeSeed(Object(AdresseSeed))
+#10 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(554): Phinx\Migration\Manager->executeSeed('default', Object(AdresseSeed))
+#11 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Console\Command\SeedRun.php(111): Phinx\Migration\Manager->seed('default')
+#12 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Command\CommandTrait.php(35): Phinx\Console\Command\SeedRun->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Command\Seed.php(72): Migrations\Command\Seed->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 C:\Program Files (x86)\Ampps\www\Library\vendor\symfony\console\Command\Command.php(255): Migrations\Command\Seed->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 C:\Program Files (x86)\Ampps\www\Library\vendor\symfony\console\Application.php(888): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 C:\Program Files (x86)\Ampps\www\Library\vendor\symfony\console\Application.php(264): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Seed), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 C:\Program Files (x86)\Ampps\www\Library\vendor\symfony\console\Application.php(145): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(108): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\Shell.php(532): Migrations\Shell\MigrationsShell->main('migrations', 'seed')
+#20 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(164): Cake\Console\Shell->runCommand(Array, true, Array)
+#21 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Migrations\Shell\MigrationsShell->runCommand(Array, true)
+#22 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Migrations\Shell\MigrationsShell), Array)
+#23 C:\Program Files (x86)\Ampps\www\Library\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#24 {main}
+
+
+2018-11-13 21:38:42 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: users.id in C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 306
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php(306): PDOStatement->execute(Array)
+#1 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php(193): Phinx\Db\Adapter\PdoAdapter->bulkinsert(Object(Phinx\Db\Table\Table), Array)
+#2 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\TimedOutputAdapter.php(127): Phinx\Db\Adapter\AdapterWrapper->bulkinsert(Object(Phinx\Db\Table\Table), Array)
+#3 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php(193): Phinx\Db\Adapter\TimedOutputAdapter->bulkinsert(Object(Phinx\Db\Table\Table), Array)
+#4 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(653): Phinx\Db\Adapter\AdapterWrapper->bulkinsert(Object(Phinx\Db\Table\Table), Array)
+#5 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(625): Phinx\Db\Table->saveData()
+#6 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(683): Phinx\Db\Table->update()
+#7 C:\Program Files (x86)\Ampps\www\Library\config\Seeds\UserSeed.php(52): Phinx\Db\Table->save()
+#8 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(158): UserSeed->run()
+#9 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(417): Phinx\Migration\Manager\Environment->executeSeed(Object(UserSeed))
+#10 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(554): Phinx\Migration\Manager->executeSeed('default', Object(UserSeed))
+#11 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Console\Command\SeedRun.php(111): Phinx\Migration\Manager->seed('default')
+#12 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Command\CommandTrait.php(35): Phinx\Console\Command\SeedRun->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Command\Seed.php(72): Migrations\Command\Seed->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 C:\Program Files (x86)\Ampps\www\Library\vendor\symfony\console\Command\Command.php(255): Migrations\Command\Seed->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 C:\Program Files (x86)\Ampps\www\Library\vendor\symfony\console\Application.php(888): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 C:\Program Files (x86)\Ampps\www\Library\vendor\symfony\console\Application.php(264): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Seed), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 C:\Program Files (x86)\Ampps\www\Library\vendor\symfony\console\Application.php(145): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(108): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\Shell.php(532): Migrations\Shell\MigrationsShell->main('migrations', 'seed')
+#20 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(164): Cake\Console\Shell->runCommand(Array, true, Array)
+#21 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Migrations\Shell\MigrationsShell->runCommand(Array, true)
+#22 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Migrations\Shell\MigrationsShell), Array)
+#23 C:\Program Files (x86)\Ampps\www\Library\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#24 {main}
+
+
+2018-11-13 21:39:40 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: adresses.id in C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 306
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php(306): PDOStatement->execute(Array)
+#1 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php(193): Phinx\Db\Adapter\PdoAdapter->bulkinsert(Object(Phinx\Db\Table\Table), Array)
+#2 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\TimedOutputAdapter.php(127): Phinx\Db\Adapter\AdapterWrapper->bulkinsert(Object(Phinx\Db\Table\Table), Array)
+#3 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php(193): Phinx\Db\Adapter\TimedOutputAdapter->bulkinsert(Object(Phinx\Db\Table\Table), Array)
+#4 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(653): Phinx\Db\Adapter\AdapterWrapper->bulkinsert(Object(Phinx\Db\Table\Table), Array)
+#5 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(625): Phinx\Db\Table->saveData()
+#6 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(683): Phinx\Db\Table->update()
+#7 C:\Program Files (x86)\Ampps\www\Library\config\Seeds\AdresseSeed.php(95): Phinx\Db\Table->save()
+#8 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(158): AdresseSeed->run()
+#9 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(417): Phinx\Migration\Manager\Environment->executeSeed(Object(AdresseSeed))
+#10 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(554): Phinx\Migration\Manager->executeSeed('default', Object(AdresseSeed))
+#11 C:\Program Files (x86)\Ampps\www\Library\vendor\robmorgan\phinx\src\Phinx\Console\Command\SeedRun.php(111): Phinx\Migration\Manager->seed('default')
+#12 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Command\CommandTrait.php(35): Phinx\Console\Command\SeedRun->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Command\Seed.php(72): Migrations\Command\Seed->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 C:\Program Files (x86)\Ampps\www\Library\vendor\symfony\console\Command\Command.php(255): Migrations\Command\Seed->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 C:\Program Files (x86)\Ampps\www\Library\vendor\symfony\console\Application.php(888): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 C:\Program Files (x86)\Ampps\www\Library\vendor\symfony\console\Application.php(264): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Seed), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 C:\Program Files (x86)\Ampps\www\Library\vendor\symfony\console\Application.php(145): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(108): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\Shell.php(532): Migrations\Shell\MigrationsShell->main('migrations', 'seed')
+#20 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(164): Cake\Console\Shell->runCommand(Array, true, Array)
+#21 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Migrations\Shell\MigrationsShell->runCommand(Array, true)
+#22 C:\Program Files (x86)\Ampps\www\Library\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Migrations\Shell\MigrationsShell), Array)
+#23 C:\Program Files (x86)\Ampps\www\Library\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#24 {main}
+
+

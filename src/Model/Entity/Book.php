@@ -8,13 +8,14 @@ use Cake\ORM\Entity;
  *
  * @property int $id
  * @property string $title
+ * @property int $genre_id
  * @property \Cake\I18n\FrozenDate $publication
  * @property \Cake\I18n\FrozenTime $created
  * @property \Cake\I18n\FrozenTime $modified
  * @property int $user_id
  *
+ * @property \App\Model\Entity\Genre $genre
  * @property \App\Model\Entity\User $user
- * @property \App\Model\Entity\FilesBook[] $files_book
  * @property \App\Model\Entity\Stock[] $stocks
  */
 class Book extends Entity
@@ -31,12 +32,13 @@ class Book extends Entity
      */
     protected $_accessible = [
         'title' => true,
+        'genre_id' => true,
         'publication' => true,
         'created' => true,
         'modified' => true,
         'user_id' => true,
+        'genre' => true,
         'user' => true,
-        'files_book' => true,
         'stocks' => true
     ];
 }

@@ -7,8 +7,14 @@
 <p>Lorsqu'on change de langue, les nom des livres, dans la page Books, change pour la langue desirer </p>
 <p>L'option File permet de charger des images sur le site</p>
 
-
+<p>Pour rentrer en administrateur, Le courriel lr.infographie@gmail.com et le mot de passe Admin peut etre utiliser</p>
+<p>Les liste liées sont dans la table Books pour le champre genre</p>
+<p>L'autocomplete est dans le champ ville pour la table adresse</p>
+<p>Il est possible de rentrer avec le préfix admin à partir de la vue des bibliothéques (libraries)</p>
 
 <?= $this->Html->image('bd.png') ?>
 <br/>
+<?= $this->Html->link('Coverage', "/coverage/index.html");?>
+<br/>
 <a href="http://www.databaseanswers.org/data_models/libraries_and_books/index.htm">Base de donnée original</a>
+

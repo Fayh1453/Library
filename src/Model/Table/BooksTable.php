@@ -9,8 +9,8 @@ use Cake\Validation\Validator;
 /**
  * Books Model
  *
+ * @property \App\Model\Table\GenresTable|\Cake\ORM\Association\BelongsTo $Genres
  * @property \App\Model\Table\UsersTable|\Cake\ORM\Association\BelongsTo $Users
- * @property \App\Model\Table\FilesBookTable|\Cake\ORM\Association\HasMany $FilesBook
  * @property \App\Model\Table\StocksTable|\Cake\ORM\Association\HasMany $Stocks
  *
  * @method \App\Model\Entity\Book get($primaryKey, $options = [])
@@ -36,19 +36,20 @@ class BooksTable extends Table
     public function initialize(array $config)
     {
         parent::initialize($config);
-$this->addBehavior('Translate', ['fields' => ['title']]);
+
         $this->setTable('books');
         $this->setDisplayField('title');
         $this->setPrimaryKey('id');
 
         $this->addBehavior('Timestamp');
 
+        $this->belongsTo('Genres', [
+            'foreignKey' => 'genre_id',
+            'joinType' => 'INNER'
+        ]);
         $this->belongsTo('Users', [
             'foreignKey' => 'user_id',
             'joinType' => 'INNER'
-        ]);
-        $this->hasMany('FilesBook', [
-            'foreignKey' => 'book_id'
         ]);
         $this->hasMany('Stocks', [
             'foreignKey' => 'book_id'
@@ -90,6 +91,7 @@ $this->addBehavior('Translate', ['fields' => ['title']]);
      */
     public function buildRules(RulesChecker $rules)
     {
+        $rules->add($rules->existsIn(['genre_id'], 'Genres'));
         $rules->add($rules->existsIn(['user_id'], 'Users'));
 
         return $rules;

@@ -7,7 +7,6 @@ use Cake\ORM\Entity;
  * Adress Entity
  *
  * @property int $id
- * @property string $city
  * @property string $street
  * @property int $number
  * @property string $zip
@@ -15,6 +14,7 @@ use Cake\ORM\Entity;
  * @property \Cake\I18n\FrozenTime $modified
  * @property int $user_id
  *
+ * @property \App\Model\Entity\Ville $ville
  * @property \App\Model\Entity\User $user
  */
 class Adress extends Entity
@@ -30,7 +30,7 @@ class Adress extends Entity
      * @var array
      */
     protected $_accessible = [
-        'city' => true,
+        'ville' => true,
         'street' => true,
         'number' => true,
         'zip' => true,

@@ -25,8 +25,8 @@ class BooksTableTest extends TestCase
      */
     public $fixtures = [
         'app.books',
+        'app.genres',
         'app.users',
-        'app.files_book',
         'app.stocks'
     ];
 

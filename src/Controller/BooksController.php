@@ -21,7 +21,7 @@ class BooksController extends AppController
     public function index()
     {
         $this->paginate = [
-            'contain' => ['Users']
+            'contain' => ['Genres', 'Users']
         ];
         $books = $this->paginate($this->Books);
 
@@ -38,7 +38,7 @@ class BooksController extends AppController
     public function view($id = null)
     {
         $book = $this->Books->get($id, [
-            'contain' => ['Users', 'FilesBook', 'Stocks']
+            'contain' => ['Genres', 'Users', 'Stocks']
         ]);
 
         $this->set('book', $book);
@@ -61,8 +61,9 @@ class BooksController extends AppController
             }
             $this->Flash->error(__('The book could not be saved. Please, try again.'));
         }
+        $genres = $this->Books->Genres->find('list', ['limit' => 200]);
         $users = $this->Books->Users->find('list', ['limit' => 200]);
-        $this->set(compact('book', 'users'));
+        $this->set(compact('book', 'genres', 'users'));
     }
 
     /**
@@ -86,8 +87,9 @@ class BooksController extends AppController
             }
             $this->Flash->error(__('The book could not be saved. Please, try again.'));
         }
+        $genres = $this->Books->Genres->find('list', ['limit' => 200]);
         $users = $this->Books->Users->find('list', ['limit' => 200]);
-        $this->set(compact('book', 'users'));
+        $this->set(compact('book', 'genres', 'users'));
     }
 
     /**

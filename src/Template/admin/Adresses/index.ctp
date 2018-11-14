@@ -1,0 +1,58 @@
+<?php
+/* @var $this \Cake\View\View */
+$this->extend('/Layout/TwitterBootstrap/dashboard');
+$this->start('tb_actions');
+?>
+    <li><?= $this->Html->link(__('New Adresses'), ['action' => 'add']); ?></li>
+<?php $this->end(); ?>
+<?php $this->assign('tb_sidebar', '<ul class="nav nav-sidebar">' . $this->fetch('tb_actions') . '</ul>'); ?>
+    
+    
+
+    <table class="table table-striped" cellpadding="0" cellspacing="0">
+        <thead>
+            <tr>
+                <th scope="col"><?= $this->Paginator->sort('id') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('ville') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('street') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('number') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('zip') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('created') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('modified') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('user_id') ?></th>
+                <th scope="col" class="actions"><?= __('Actions') ?></th>
+            </tr>
+        </thead>
+        
+        
+        <tbody>
+            <?php foreach ($adresses as $adress): ?>
+            <tr>
+                <td><?= $this->Number->format($adress->id) ?></td>
+                <td><?= h($adress->ville) ?></td>
+                <td><?= h($adress->street) ?></td>
+                <td><?= $this->Number->format($adress->number) ?></td>
+                <td><?= h($adress->zip) ?></td>
+                <td><?= h($adress->created) ?></td>
+                <td><?= h($adress->modified) ?></td>
+                <td><?= $adress->has('user') ? $this->Html->link($adress->user->id, ['controller' => 'Users', 'action' => 'view', $adress->user->id]) : '' ?></td>
+                <td class="actions">
+                    <?= $this->Html->link(__('View'), ['action' => 'view', $adress->id]) ?>
+                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $adress->id]) ?>
+                    <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $adress->id], ['confirm' => __('Are you sure you want to delete # {0}?', $adress->id)]) ?>
+                </td>
+            </tr>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
+    <div class="paginator">
+        <ul class="pagination">
+            <?= $this->Paginator->first('<< ' . __('first')) ?>
+            <?= $this->Paginator->prev('< ' . __('previous')) ?>
+            <?= $this->Paginator->numbers() ?>
+            <?= $this->Paginator->next(__('next') . ' >') ?>
+            <?= $this->Paginator->last(__('last') . ' >>') ?>
+        </ul>
+        <p><?= $this->Paginator->counter(['format' => __('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')]) ?></p>
+    </div>
+</div>
